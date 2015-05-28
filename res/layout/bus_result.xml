@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/widget_title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        layout="@layout/widget_fun_title" />
+
+    <LinearLayout
+        android:id="@+id/bus_init"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:src="@drawable/bus_way" />
+
+        <TextView
+            style="@style/bus_result_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:text=":在路上" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bus_to" />
+
+        <TextView
+            style="@style/bus_result_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":到站点" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/station_textView"
+        style="@style/bus_result_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/time_textView"
+        style="@style/bus_result_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp" >
+    </ListView>
+
+</LinearLayout>

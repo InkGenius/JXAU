@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/frame_button_text_nor" 
+    android:orientation="vertical" >
+	<RelativeLayout
+        android:id="@+id/widget_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <include
+        android:id="@+id/included1"
+        layout="@layout/main_content" />
+</LinearLayout>

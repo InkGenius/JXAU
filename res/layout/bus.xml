@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/dim_foreground_light_disabled"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/widget_title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        layout="@layout/widget_fun_title" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35.0dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_240"
+            style="@style/frame_button"
+            android:text="240"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/image_button_cutline"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/frame_button_cutline"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn704"
+            style="@style/frame_button"
+            android:text="704"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bus_station"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/bus_station_start"
+            style="@style/bus_result_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="→" />
+
+        <TextView
+            android:id="@+id/bus_station_end"
+            style="@style/bus_result_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bus_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/BR_time_textView"
+            style="@style/bus_result_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="首末班:" />
+
+        <TextView
+            android:id="@+id/BR_start_time_textView"
+            style="@style/bus_result_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6:15" />
+
+        <TextView
+            style="@style/bus_result_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--" />
+
+        <TextView
+            android:id="@+id/BR_end_time_textView"
+            style="@style/bus_result_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20:35" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bus_time_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/BR_time_textView_2"
+            style="@style/bus_result_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="首末班(长班):" />
+
+        <TextView
+            android:id="@+id/BR_start_time_textView_2"
+            style="@style/bus_result_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6:35" />
+
+        <TextView
+            style="@style/bus_result_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--" />
+
+        <TextView
+            android:id="@+id/BR_end_time_textView_2"
+            style="@style/bus_result_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16:55" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bus_init"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:src="@drawable/bus_way" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:text="--在路上" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bus_to" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--到站点" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView_240"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1" >
+    </ListView>
+
+    <ListView
+        android:id="@+id/listView_704"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:visibility="gone" >
+    </ListView>
+
+</LinearLayout>

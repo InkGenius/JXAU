@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bus_line_array">
+        <item>240</item>
+        <item>704</item>
+    </string-array>
+</resources>

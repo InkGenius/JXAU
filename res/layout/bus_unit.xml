@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/r1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imageView_cutline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/frame_button_cutline" />
+
+    <ImageView
+        android:id="@+id/imageView_station_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView_cutline"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/presence_offline" />
+
+    <TextView
+        android:id="@+id/textView_station"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView_station_state"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/imageView_station_state"
+        android:text="农大" />
+	
+    <ImageView
+        android:id="@+id/imageView_bus_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/imageView_station_state"
+        android:layout_alignBottom="@+id/imageView_station_state"
+        android:visibility="gone"
+        android:src="@drawable/bus_to" 
+       />
+    <TextView
+        android:id="@+id/textView_bus_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView_bus_to"
+        android:layout_marginLeft="2dp"
+        android:visibility="gone"
+        android:layout_toLeftOf="@+id/imageView_bus_to"
+        android:text="2辆"/>
+    <ImageView
+        android:id="@+id/imageView_bus_way"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/imageView_cutline"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dp"
+        android:visibility="gone"
+        android:src="@drawable/bus_way" 
+       />
+     <TextView
+        android:id="@+id/textView_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView_bus_to"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/textView_station"
+        android:textColor="@color/blue"
+        android:visibility="gone"
+        android:text="-- 我在这"/>
+
+</RelativeLayout>

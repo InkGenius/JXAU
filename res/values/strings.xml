@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">农大生活</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	
+    <string name="frame_main_school_map">农大地图</string>
+    <string name="frame_main_bus_track">实时公交</string>
+    <string name="frame_main_common_phone">常用电话</string>
+    <string name="frame_main_news_and_noticle">新闻通告</string>
+    <string name="frame_main_school_landscape">校园景观</string>
+    <string name="frame_main_school_news">校园资讯</string>
+    <string name="frame_main_electricity_query">电费查询</string>
+    <string name="frame_main_educational_admin_assist">教务助手</string>
+    
+    <string name="frame_bus_track_header_title">公交去哪了</string>
+    <string name="frame_news_school_news">学校新闻</string>
+    <string name="frame_news_school_notice">通知公告</string>
+    
+    <string name="pull_to_refresh_pull_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_release_label">松开可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中...</string>
+    <string name="pull_to_refresh_tap_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_update">最近更新：</string>
+    
+    <string name="news_detail_head_title">新闻正文</string>
+    <string name="news_detail_lable_pub">发布于</string>
+    
+    <string name="border_top">Border Top</string>
+    <string name="border_bottom">Border Bottom</string>
+    <string name="image_url">Image Url</string>
+</resources>

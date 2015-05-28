@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/bus_track_radiolist_item"  
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_marginBottom="10dp"  
+    android:layout_marginTop="10dp"  
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >  
+   <RadioButton  
+        android:id="@+id/radio_btn"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content" 
+        android:gravity="left"
+        android:focusable="false"    
+         />  
+    <TextView  
+        android:id="@+id/search_user_name"  
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"  
+        android:textSize="18sp"
+        android:textColor="#ffffffff"  
+        android:text="农大"
+        />  
+</LinearLayout>  

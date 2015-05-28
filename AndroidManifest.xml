@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zero.jxauapp"
+    android:versionCode="9"
+    android:versionName="Beta1.5" >
+	
+    <uses-sdk android:minSdkVersion="8" />
+	
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+    <!-- 使用网络功能所需权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <!-- SDK离线地图和cache功能需要读写外部存储器 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" >
+    </uses-permission>
+    <!-- 获取设置信息和详情页直接拨打电话需要以下权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+    <!-- 使用定位功能所需权限,demo已集成百度定位SDK,不使用定位功能可去掉以下6项 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </permission>
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+
+    <application
+        android:name="com.jxau.app.api.AppContext"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_app"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.jxau.app.ui.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jxau.app.ui.MapActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="农大地图"
+            android:screenOrientation="sensor" >
+        </activity>
+        <activity android:name="com.jxau.app.ui.News" >
+        </activity>
+        <activity android:name="com.jxau.app.ui.NewsDetails" >
+        </activity>
+        <activity android:name="com.jxau.app.ui.AdminSystem" >
+        </activity>
+        <activity android:name="com.jxau.app.ui.BusTrack" >
+        </activity>
+        <activity android:name="com.jxau.app.ui.PhoneNumber" >
+        </activity>
+        <activity android:name="com.jxau.app.ui.LandScape" >
+        </activity>
+        <activity android:name="com.jxau.app.ui.ImageDetails" >
+        </activity>
+        <activity android:name="com.jxau.app.ui.Bus" >
+        </activity>
+        <activity android:name="com.jxau.app.ui.AboutActivity" >
+        </activity>
+        <activity android:name="com.jxau.app.ui.Main" >
+        </activity>
+
+        <!-- ###############友盟############# -->
+        <activity android:name="com.umeng.fb.ConversationActivity"
+            android:theme="@style/NoTitle"/>
+        <activity android:name="com.umeng.fb.ContactActivity"
+       		android:theme="@style/NoTitle"/>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5317f79a56240bb5bb09a14a" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="jxauzerodaisong" />
+
+        <service
+            android:name="com.umeng.common.net.DownloadingService"
+            android:process=":DownloadingService" >
+        </service>
+
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:permission="android.permission.BAIDU_LOCATION_SERVICE"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.4" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

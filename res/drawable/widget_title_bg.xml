@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 主体颜色值  ：再画一个矩形覆盖在第一个之上 -->
+    <item>
+        <shape>
+            <solid android:color="#464646" />
+            <!-- 圆角  bottomLeftRadius是右下角 -->
+            <corners
+                android:bottomLeftRadius="0dip"
+                android:bottomRightRadius="0dip"
+                android:topLeftRadius="10dip"
+                android:topRightRadius="10dip" />
+        </shape>
+    </item>
+    <!-- 主体颜色值  ：再画一个矩形覆盖在第一个之上 -->
+    <item
+        android:top="1px">
+        <shape>
+		    <!-- 渐变  --> 
+			<gradient  
+			      android:startColor = "#2f6ab9" 
+			      android:endColor = "#2d63b0"    
+			      android:angle = "270"/>  
+            <!-- 圆角  bottomLeftRadius是右下角 -->
+            <corners
+                android:bottomLeftRadius="0dip"
+                android:bottomRightRadius="0dip"
+                android:topLeftRadius="10dip"
+                android:topRightRadius="10dip" />
+        </shape>
+    </item>
+
+</layer-list>

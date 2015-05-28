@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bus_station_array">
+        <item>农大生活区站</item>
+        <item>财大站</item>
+        <item>下罗站</item>
+    </string-array>
+    
+    <string-array name="bus_station_array_2">
+        <item>农大生活区站</item>
+        <item>财大站</item>
+        <item>下罗站</item>
+    </string-array>
+    
+    <string-array name="stations_240">
+        <item>梅岭脚站(长班)</item>
+        <item>槐树村站(长班)</item>
+        <item>地震台站(长班)</item>
+        <item>石棉厂站(长班)</item>
+        <item>行政学院站</item>
+        <item>青年职业学院站</item>
+        <item>江西农大站</item>
+        <item>农大生活区站</item>
+        <item>紧固件厂站</item>
+        <item>肠衣厂站</item>
+        <item>车管所站</item>
+        <item>农大东区站</item>
+        <item>财大站</item>
+        <item>下罗站</item>
+        <item>砂轮厂站</item>
+        <item>舍里甲站</item>
+        <item>城建学院站</item>
+        <item>瀛上路口站</item>
+        <item>瀛上村站</item>
+        <item>凤凰大道口站</item>
+        <item>昌北站</item>
+        <item>十中站</item>
+        <item>青山路口站</item>
+        <item>青山南路口站</item>
+        <item>蓝天碧水购物广场站</item>
+    </string-array>
+	
+    <string-array name="stations_240_1">
+        <item>蓝天碧水购物广场站</item>
+        <item>青山南路口站</item>
+        <item>青山路口站</item>
+        <item>十中站</item>
+        <item>昌北站</item>
+        <item>凤凰大道口站</item>
+        <item>瀛上村站</item>
+        <item>瀛上路口站</item>
+        <item>城建学院站</item>
+        <item>舍里甲站</item>
+        <item>砂轮厂站</item>
+        <item>下罗站</item>
+        <item>财大站</item>
+        <item>农大东区站</item>
+        <item>车管所站</item>
+        <item>肠衣厂站</item>
+        <item>紧固件厂站</item>
+        <item>农大生活区站</item>
+        <item>江西农大站</item>
+        <item>青年职业学院站</item>
+        <item>行政学院站</item>
+        <item>石棉厂站(长班)</item>
+        <item>地震台站(长班)</item>
+        <item>槐树村站(长班)</item>
+        <item>梅岭脚站(长班)</item>
+    </string-array>
+    
+    <string-array name="stations_704">
+        <item>行政学院站</item>
+        <item>江西农大站</item>
+        <item>车管所站 </item>
+        <item>财大西门站 </item>
+        <item>下罗站</item>
+        <item>昌北站</item>
+        <item>八一桥站</item>
+        <item>青山路口站</item>
+        <item>八一广场北站</item>
+    </string-array>
+    
+    <string-array name="stations_704_1">
+        <item>八一广场北站</item>
+        <item>青山路口站</item>
+        <item>八一桥站</item>
+        <item>昌北站</item>
+        <item>下罗站</item>
+        <item>财大西门站 </item>
+        <item>车管所站 </item>
+        <item>江西农大站</item>
+        <item>行政学院站</item>
+    </string-array>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="number_category">
+        <item>学校组织</item>
+        <item>院系</item>
+        <item>外卖</item>
+        <item>快递</item>
+    </string-array>
+    <string-array name="common_number">
+        <item>教务处:83813309</item>
+        <item>保卫处:83813110</item>
+        <item>后勤处:83813878</item>
+        <item>后勤服务集团:83813533</item>
+        <item>医院:83813425</item>
+    </string-array>
+    <string-array name="organization_number">
+        <item>党办校办:83813345</item>
+        <item>纪监审:83813487</item>
+        <item>机关党委:83828279</item>
+        <item>组织部:83813486</item>
+        <item>老干处:83813434</item>
+        <item>宣传部:83813454</item>
+        <item>统战部:83813482</item>
+        <item>学工部:83813453</item>
+        <item>团 委:83813447</item>
+        <item>工 会:83828057</item>
+        <item>党 校:83813562</item>
+        <item>保育院:83813340</item>
+        <item>教务处:83813309</item>
+        <item>人事处:83813476</item>
+        <item>财务处:83813489</item>
+        <item>科技处:83828018</item>
+        <item>研究生处:83813311</item>
+        <item>(招生就业处)就业办公室1:83813764</item>
+        <item>(招生就业处)就业办公室2:83828037</item>
+        <item>(招生就业处)招生办公:83813214</item>
+        <item>国际交流处:83813351</item>
+        <item>设备处:83813465/83845795</item>
+        <item>校建办:83828000</item>
+        <item>校园管理处:83813297</item>
+        <item>保卫处1:83813154</item>
+        <item>保卫处2:83813110</item>
+        <item>后勤处:83813878</item>
+        <item>产业处:83813809</item>
+        <item>信息中心:83813270</item>
+        <item>后勤服务集团:83813533</item>
+    </string-array>
+    
+    <string-array name="college_number">
+        <item>农学院:83813185</item>
+        <item>园林与艺术学院:83813243</item>
+        <item>动物科技学院:83813503</item>
+        <item>工学院:83813184</item>
+        <item>经济贸易学院:83813829</item>
+        <item>国土学院:83813024</item>
+        <item>计信学院:83813461</item>
+        <item>软件学院:83813933</item>
+        <item>人文学院:83813245</item>
+        <item>理学院:83813574</item>
+        <item>职业师范学院:83813273</item>
+        <item>成人教育学院:83813540</item>
+        <item>食品学院:83813420</item>
+        <item>生物工程学院:83813459</item>
+        <item>外国语学院:83813222</item>
+        <item>商学院:83900099</item>
+        <item>军体部:83813987</item>
+        <item>图书馆:83813264</item>
+        <item>学报:83828010</item>
+        <item>档案馆:83813304</item>
+        <item>高教所:83828291</item>
+        <item>医院:83813425</item>
+        <item>附中:83813423</item>
+    </string-array>
+    <string-array name="fastFood_number">
+        <item >汉之堡 :18170848168</item>
+        <item >济之岛:15170232557</item>
+        <item >柏乐基:87695911</item>
+        <item >撒丁岛:18970881183</item>
+        <item >大食头:82230196</item>
+        <item >家常菜:13507007609</item>
+        <item >金锅饭:15079025426</item>
+        <item >华莱士:15070058536</item>
+        <item >木桶饭:15879052895</item>
+        <item >热干菜 :13767015528</item>
+        <item >紫竹快餐 :15079117416 </item>
+        <item >客家维宁:15070089135</item>
+		<item >沁人酒楼:13698008759</item>
+	    <item >如意水饺 :18079176550</item>
+		<item >宜宾燃面:15979051990</item>
+		<item >湖南牛肉粉 :13037210736 </item>
+		<item >好又多快餐:18779109851 </item>
+		<item >爱味奶茶店:18970969368</item>		
+		<item >螺蛳湾烧烤:15350117383</item>
+	    <item >云南过桥米线:15270020833</item>
+    </string-array>
+    <string-array name="express_number">
+        <item >EMS:18979150106</item>
+        <item >天天快递:15170214039</item>
+        <item >顺丰快递:13755764641</item>
+        <item >后街韵达:18607097791</item>
+        <item >前街韵达:13330117575</item>
+        <item >申通-汇通:18720973246</item>
+        <item >圆通-中通1:13576099587</item>
+        <item >圆通-中通2:15070018613</item>
+    </string-array>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="45dip"
+		android:orientation="horizontal" 
+		android:gravity="center_vertical">
+     	<Button 
+     		android:id="@+id/frame_btn_news_lastest"
+     		style="@style/frame_button"
+         	android:text="@string/frame_news_school_news"/>
+     	<ImageView android:layout_width="wrap_content" 
+     	    android:layout_height="fill_parent" 
+     	    android:background="@drawable/frame_button_cutline"/>
+     	<Button 
+     		android:id="@+id/frame_btn_news_blog"
+     		style="@style/frame_button"
+         	android:text="@string/frame_news_school_notice"/>
+    </LinearLayout>
+	<com.jxau.app.widget.PullToRefreshListView
+	  	android:id="@+id/frame_listview_news"
+	    style="@style/widget_listview"/>
+	
+	<com.jxau.app.widget.PullToRefreshListView
+	  	android:id="@+id/frame_listview_noticle"
+	    style="@style/widget_listview"
+	    android:visibility="gone"/>
+</LinearLayout>

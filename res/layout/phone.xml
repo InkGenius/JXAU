@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+	<include
+        android:id="@+id/widget_title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        layout="@layout/widget_fun_title" />
+	<ExpandableListView
+	     android:id="@+id/phone_expandableListView"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content" >
+	 </ExpandableListView>
+	 <ListView
+	     android:id="@+id/enum_listView"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content" >
+	</ListView>
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+    <include
+        android:id="@+id/widget_title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_alignParentTop="true"
+        layout="@layout/widget_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/foot"
+        android:layout_below="@+id/widget_title"
+        android:background="#ffffff"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="0.0dip"
+                android:lineSpacingMultiplier="1.3"
+                android:textColor="#ff000000"
+                android:autoLink="web|phone"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/foot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#dddddd" />
+
+        <LinearLayout
+            android:id="@+id/btn_setting_version"
+            android:layout_width="fill_parent"
+            android:layout_height="35.0dip"
+            android:background="@drawable/widget_list_item_bg" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip"
+                android:text="软件更新"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/textView_setting_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#ff6b82ad" />
+
+            <ImageView
+                android:id="@+id/imageview_setting_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@null"
+                android:paddingRight="10dip"
+                android:src="@drawable/icon_list_arrow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#dddddd" />
+
+        <LinearLayout
+            android:id="@+id/btn_setting_feedback"
+            android:layout_width="fill_parent"
+            android:layout_height="35.0dip"
+            android:background="@drawable/widget_list_item_bg" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip"
+                android:text="意见反馈"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#ff6b82ad" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@null"
+                android:paddingRight="10dip"
+                android:src="@drawable/icon_list_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
